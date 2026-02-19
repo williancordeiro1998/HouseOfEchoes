@@ -1,0 +1,17 @@
+# Ambientes Virtuais do Python
+venv/
+.venv/
+env/
+
+# Variáveis de Ambiente (CRÍTICO: Nunca subir credenciais)
+.env
+
+# Logs Locais e Dados Sensíveis
+attack_logs.json
+*.log
+*.sqlite3
+
+# Arquivos de Cache do Python e PyCharm
+__pycache__/
+*.pyc
+.idea/
